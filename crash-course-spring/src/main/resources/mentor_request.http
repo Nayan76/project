@@ -1,0 +1,20 @@
+### GET request to example server
+POST http://localhost:8080/mentor/add
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Brown",
+  "currentCompany": "Google",
+  "yearsOfExperience": 1.1
+}
+###
+POST http://localhost:8080/mentor/add
+Content-Type: application/json
+
+{
+  "firstName": "David",
+  "lastName": "Johnson",
+  "currentCompany": "Microsoft",
+  "yearsOfExperience": 10
+}

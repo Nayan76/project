@@ -1,0 +1,66 @@
+### GET request to example server
+POST http://localhost:8080/student/add
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe"
+}
+###
+POST http://localhost:8080/student/add
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Brown"
+}
+###
+GET http://localhost:8080/student/get/3
+###
+POST http://localhost:8080/student/add
+Content-Type: application/json
+
+{
+  "firstName": "Akash",
+  "lastName": "Joshi"
+}
+###
+DELETE http://localhost:8080/student/delete/52
+###
+PUT http://localhost:8080/student/update/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "firstName": "John",
+  "lastName": "Brown"
+}
+###
+POST http://localhost:8080/student/add
+Content-Type: application/json
+
+{
+  "firstName": "",
+  "lastName": "Joshi"
+}
+###
+
+POST http://localhost:8080/student/add
+Content-Type: application/json
+
+{
+  "firstName": "Emma",
+  "lastName": "Williams",
+  "email": "emma.williams@example.com",
+  "password": "securePassword123"
+}
+###
+POST http://localhost:8080/student/add
+Content-Type: application/json
+
+{
+  "firstName": "Michael",
+  "lastName": "Smith",
+  "email": "michael.smith@example.com",
+  "password": "strongPassword456"
+}

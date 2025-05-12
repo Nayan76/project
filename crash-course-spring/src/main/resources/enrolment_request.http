@@ -1,0 +1,10 @@
+### GET request to example server
+POST http://localhost:8080/enrolment/add
+Content-Type: application/json
+
+{
+  "studentId": 1,
+  "courseId": 2,
+  "enrolmentDate": "2025-05-12T10:00:00"
+}
+###
